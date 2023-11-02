@@ -4,7 +4,24 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Factory Method!!!");
         }
+    }
+
+     abstract class CarFactory
+    {    
+        public abstract Car GetCar();
+        private static Guid LastID;
+
+    }
+
+    class AutomobileFactory : CarFactory
+    {
+
+    }
+
+    class TruckFactory : CarFactory
+    {
+
     }
 }
