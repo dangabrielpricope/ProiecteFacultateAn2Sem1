@@ -11,5 +11,8 @@ internal class Program
         director.Construct();
         Car newCar = director.GetResult();
         Console.WriteLine(newCar.ToString());
+        var clonedCar = newCar.Clone();
+        Console.WriteLine(clonedCar.ToString());
+        
     }
 }
