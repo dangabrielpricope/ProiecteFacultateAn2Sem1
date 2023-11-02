@@ -2,6 +2,6 @@
 {
     class TruckFactory : CarFactory
     {
-        public override Car GetCar() => new Truck();
+        protected override Car GetCar() => new Truck();
     }
 }
