@@ -8,5 +8,13 @@ namespace Factory
         public  decimal Price { get; }
         public  Color Color { get; }
         public  string Brand { get; }
+        protected Car(string brand)
+        {
+            Brand = brand;
+        }
+        protected Car()
+        {
+            
+        }
     }
 }

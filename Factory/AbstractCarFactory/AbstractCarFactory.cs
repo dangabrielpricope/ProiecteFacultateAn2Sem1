@@ -7,36 +7,12 @@ using Factory;
 
 namespace AbstractCarFactory
 {
+
     abstract class AbstractCarFactory
     {
-        public abstract Automobile GetAutomobile();
-        public abstract Truck GetTruck();
+        protected abstract string Brand { get; }
+        public  Automobile GetAutomobile() => new Automobile(Brand);
+        public  Truck GetTruck() => new Truck(Brand);
 
-    }
-
-    class MercedesCarFactory : AbstractCarFactory
-    {
-        public override Automobile GetAutomobile()
-        {
-            return new Automobile();
-        }
-
-        public override Truck GetTruck()
-        {
-            return new Truck();
-        }
-    }
-
-    class VolvoCarFactory : AbstractCarFactory
-    {
-        public override Automobile GetAutomobile()
-        {
-            return new Automobile();
-        }
-
-        public override Truck GetTruck()
-        {
-            return new Truck();
-        }
     }
 }
