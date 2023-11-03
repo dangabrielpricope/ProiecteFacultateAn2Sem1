@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLib", "..\CarLib\CarLib.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarFactory", "..\CarFactory\CarFactory.csproj", "{9B7174B6-E568-4CCA-A1E0-53BA140DCE63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractCarFactory", "..\AbstractCarFactory\AbstractCarFactory.csproj", "{CF997C52-64BF-4F18-BAAC-64ACAC5E50A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9B7174B6-E568-4CCA-A1E0-53BA140DCE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B7174B6-E568-4CCA-A1E0-53BA140DCE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B7174B6-E568-4CCA-A1E0-53BA140DCE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF997C52-64BF-4F18-BAAC-64ACAC5E50A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF997C52-64BF-4F18-BAAC-64ACAC5E50A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF997C52-64BF-4F18-BAAC-64ACAC5E50A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF997C52-64BF-4F18-BAAC-64ACAC5E50A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
