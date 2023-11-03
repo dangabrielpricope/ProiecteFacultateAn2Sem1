@@ -1,27 +1,14 @@
-﻿namespace Factory
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace Factory
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Factory Method!!!");
+            CarFactoryExercise.Run();
+            // Wait for user
+            Console.ReadKey();
         }
-    }
-
-     abstract class CarFactory
-    {    
-        public abstract Car GetCar();
-        private static Guid LastID;
-
-    }
-
-    class AutomobileFactory : CarFactory
-    {
-
-    }
-
-    class TruckFactory : CarFactory
-    {
-
     }
 }
