@@ -11,8 +11,10 @@ namespace AbstractCarFactory
     abstract class AbstractCarFactory
     {
         protected abstract string Brand { get; }
-        public  Automobile GetAutomobile() => new Automobile(Brand);
-        public  Truck GetTruck() => new Truck(Brand);
+        protected abstract int Price {  get; }
+        protected abstract string Color { get; }
+        public Automobile GetAutomobile() => new Automobile(Brand, Price, Color);
+        public Truck GetTruck() => new Truck(Brand, Price, Color);
 
     }
 }

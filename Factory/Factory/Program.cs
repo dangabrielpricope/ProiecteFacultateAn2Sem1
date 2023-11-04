@@ -10,7 +10,7 @@ namespace Factory
             CarFactoryExercise.Run();
             AbstractCarFactoryExercise.Run();
 
-            // Wait for user
+            
             Console.ReadKey();
         }
     }

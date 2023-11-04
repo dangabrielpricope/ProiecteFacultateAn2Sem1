@@ -2,8 +2,8 @@
 {
     public class Truck : Car
     {
-        public Truck(string brand)
-            : base(brand)
+        public Truck(string brand, int price, string color)
+            : base(brand, price, color)
         {
 
         }

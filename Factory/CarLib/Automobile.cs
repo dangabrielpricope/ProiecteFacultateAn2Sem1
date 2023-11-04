@@ -2,8 +2,8 @@
 {
     public class Automobile : Car
     {
-        public Automobile(string brand)
-            :base(brand)
+        public Automobile(string brand, int price, string color)
+            :base(brand, price, color)
         {
            
         }
