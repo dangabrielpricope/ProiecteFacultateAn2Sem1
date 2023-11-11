@@ -21,6 +21,9 @@ namespace Builder_29._10._2023
             string description = "Color " + Color + "\n";
             description += "Model " + Enum.GetName(typeof(ECarModel), Model) + "\n";
             description += "EngineType " + Enum.GetName(typeof(EEngineType), EngineType) + "\n";
+
+            description += "IsClone " + (IsClone ? "true" : "false") + "\n";
+
             return description;
         }
 

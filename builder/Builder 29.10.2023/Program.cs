@@ -10,6 +10,9 @@ internal class Program
         CarBuildDirector director = new CarBuildDirector(carBuilder);
         director.Construct();
         Car newCar = director.GetResult();
+
+
+
         Console.WriteLine(newCar.ToString());
         var clonedCar = newCar.Clone();
         Console.WriteLine(clonedCar.ToString());
