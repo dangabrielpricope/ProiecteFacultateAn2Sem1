@@ -11,10 +11,17 @@ internal class Program
         director.Construct();
         Car newCar = director.GetResult();
 
+        Console.WriteLine("Original Car:");
+
+
+        newCar.Color = "Blue";
+
+
 
 
         Console.WriteLine(newCar.ToString());
         var clonedCar = newCar.Clone();
+        Console.WriteLine("\nCloned Car:");
         Console.WriteLine(clonedCar.ToString());
         
     }
