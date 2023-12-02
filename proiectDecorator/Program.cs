@@ -12,13 +12,13 @@
             Console.WriteLine(basicCar);
 
             ICar accesDecorator = new AccessDecorator(basicCar);
-            Console.WriteLine(accesDecorator.ToString());
+            Console.WriteLine(accesDecorator);
 
             ICar ambianceDecorator = new AmbianceDecorator(accesDecorator);
             Console.WriteLine(ambianceDecorator);
 
             ICar laureateDecorator = new LaureateDecorator(ambianceDecorator);
-            Console.Write(laureateDecorator.ToString());
+            Console.Write(laureateDecorator);
 
         }
     }
